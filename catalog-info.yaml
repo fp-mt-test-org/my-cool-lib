@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-cool-lib"
+  description: "kotlin-lib"
+  annotations:
+    github.com/project-slug: fp-mt-test-org/my-cool-lib
+    backstage.io/techdocs-ref: url:https://github.com/fp-mt-test-org/my-cool-lib
+    backstage.io/kubernetes-id: my-cool-lib
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "Product Infrastructure"
